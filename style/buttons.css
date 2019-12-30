@@ -1,0 +1,24 @@
+.buttons{
+	position: absolute;
+    top: 50%;
+    left: 9%;
+    display: flex;
+    width: 81%;
+    justify-content: space-between;
+}
+.button{
+	outline: none;
+	position: relative;
+	width: 70px;
+    height: 70px;
+    background: url(../image/snow.png) center center/cover no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.button:hover{
+	width: 120px;
+	height: 120px;
+}
+
