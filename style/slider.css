@@ -16,20 +16,17 @@
 	overflow: hidden;
 	width: 60%;
     margin: auto;
-    border: 13px solid #a0aa2a;
+    border: 13px solid #17580e;
     border-radius: 20%;
 }
 .section__container{
 	position: relative;
 }
 .slider__title{
-	position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 56px;
     color: #e00f12;
     text-align: center;
+    padding: 15px 15px;
 }
 .slider__desc{
 	position: relative;
@@ -58,8 +55,6 @@
 	background-size: cover;
 }
 p{
-	position: absolute;
-	bottom: 3%;
 	font-style: italic;
     font-size: 25px;
     color: #e00f12;
@@ -69,4 +64,12 @@ p{
 }
 .font{
 	font-size: 15px;
+}
+.slider__pic{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(173,157,157, 0.6);
+    width: 100%;
 }
